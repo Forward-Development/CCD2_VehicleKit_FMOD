@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{349ef5e7-6f4b-4df4-aa3f-def179dc65f9}">
+		<property name="assetPath">
+			<value>Vehicles/HangugEclauto/InsideCar/Example_INT_4k_loop_stereo.wav.wav.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b2c41ac4-e4cc-4ad5-a6a9-06a5476ae640}</destination>
+		</relationship>
+	</object>
+</objects>

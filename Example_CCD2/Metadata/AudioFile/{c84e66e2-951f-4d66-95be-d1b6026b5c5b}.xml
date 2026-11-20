@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c84e66e2-951f-4d66-95be-d1b6026b5c5b}">
+		<property name="assetPath">
+			<value>Vehicles/UlgaresFolk/InsideCar/Foley/Example_Engine_ParkingBrake_Off_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55818594104308394</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b2c41ac4-e4cc-4ad5-a6a9-06a5476ae640}</destination>
+		</relationship>
+	</object>
+</objects>

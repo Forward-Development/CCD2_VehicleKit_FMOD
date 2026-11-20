@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{237c3237-dc59-4cc2-b259-62a7b936d420}">
+		<property name="name">
+			<value>SkidPitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bbeaa142-ae0f-4f68-8cc0-dcbe1b69b378}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bbeaa142-ae0f-4f68-8cc0-dcbe1b69b378}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{5f204a1c-e191-4daa-b301-a2175a497c58}</destination>
+			<destination>{ee3688a9-a2a9-4909-9841-7e9a95d66128}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{5f204a1c-e191-4daa-b301-a2175a497c58}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="clockSource">
+			<value>1</value>
+		</property>
+		<property name="speedAscending">
+			<value>1.7000000476837158</value>
+		</property>
+		<property name="speedDescending">
+			<value>1.7000000476837158</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{ee3688a9-a2a9-4909-9841-7e9a95d66128}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="amount">
+			<value>13.5</value>
+		</property>
+	</object>
+</objects>

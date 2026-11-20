@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ca868a3a-14e8-4cd4-b0ae-f55f3cb075e5}">
+		<property name="name">
+			<value>GasStationStage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{72daddad-cb17-4284-b6c9-755613b72db2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{72daddad-cb17-4284-b6c9-755613b72db2}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

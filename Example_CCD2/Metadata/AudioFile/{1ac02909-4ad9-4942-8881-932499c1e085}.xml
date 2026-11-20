@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1ac02909-4ad9-4942-8881-932499c1e085}">
+		<property name="assetPath">
+			<value>Vehicles/UlgaresFolk/InsideCar/Foley/Example_Engine_GearShifter_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70476190476190481</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b2c41ac4-e4cc-4ad5-a6a9-06a5476ae640}</destination>
+		</relationship>
+	</object>
+</objects>

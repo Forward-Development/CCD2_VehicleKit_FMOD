@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{127bff8e-9536-40a9-8cc7-849902591c0f}">
+		<property name="name">
+			<value>RoadBumpiness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1ea2a4a6-ff02-480a-a8f0-818bc52ed98e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1ea2a4a6-ff02-480a-a8f0-818bc52ed98e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

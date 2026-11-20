@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f8b415c5-6ed7-4869-bd9c-c0b7d1e60b4c}">
+		<property name="name">
+			<value>Wind</value>
+		</property>
+		<relationship name="folder">
+			<destination>{955dd1e5-f1f0-4ace-b932-709d2946f0b6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{79104e73-09be-4e7d-a79e-95791a21d616}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{79104e73-09be-4e7d-a79e-95791a21d616}">
+		<property name="maximum">
+			<value>30</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

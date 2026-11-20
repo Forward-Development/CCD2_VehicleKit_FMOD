@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{cbe649bc-cc55-44e1-b484-b0dbf76ee9d0}">
+		<property name="name">
+			<value>DialogueSplit</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{71f471bf-9fae-49ef-96ac-a2d05b433ef9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{71f471bf-9fae-49ef-96ac-a2d05b433ef9}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Split</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

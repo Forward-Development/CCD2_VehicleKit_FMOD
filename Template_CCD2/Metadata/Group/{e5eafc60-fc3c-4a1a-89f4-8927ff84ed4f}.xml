@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{e5eafc60-fc3c-4a1a-89f4-8927ff84ed4f}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
+		<property name="name">
+			<value>Horn</value>
+		</property>
+		<relationship name="masters">
+			<destination>{37485cf1-dd91-4b97-bca7-8460d348acb6}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{765df79f-e659-4b10-96f5-ad8f598bbb9c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{840a640e-f401-4e3f-adf3-3c90d8250ea1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f81fbf5f-095f-4a84-a994-595ed123e43a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{765df79f-e659-4b10-96f5-ad8f598bbb9c}">
+		<relationship name="effects">
+			<destination>{51671a46-ccf9-4b6a-b756-9fb90f5ffde4}</destination>
+			<destination>{48a1c574-2161-4ce2-9f8f-fbafc88cf9cd}</destination>
+			<destination>{5eb68fa2-1491-45e1-96c8-9b48f8fbd875}</destination>
+			<destination>{b4dd499e-e57e-4176-a17a-d6e01f48bc57}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{840a640e-f401-4e3f-adf3-3c90d8250ea1}" />
+	<object class="MixerBusFader" id="{51671a46-ccf9-4b6a-b756-9fb90f5ffde4}" />
+	<object class="MixerSend" id="{48a1c574-2161-4ce2-9f8f-fbafc88cf9cd}">
+		<property name="level">
+			<value>2</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{73a8e7c8-903a-44a8-9122-d5cceb389293}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{5eb68fa2-1491-45e1-96c8-9b48f8fbd875}">
+		<property name="level">
+			<value>9</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{6e868101-23c1-426c-95b7-85d3ce1be152}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{b4dd499e-e57e-4176-a17a-d6e01f48bc57}">
+		<property name="level">
+			<value>2.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{0fc9b3f1-b7cd-42d0-8f51-318768c19bba}</destination>
+		</relationship>
+	</object>
+</objects>

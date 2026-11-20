@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{29ad8082-ccb1-4f93-aaf7-92531147b86b}">
+		<property name="name">
+			<value>WipersSpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6119533c-bfaf-4ec2-80a8-c5b382e3b159}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6119533c-bfaf-4ec2-80a8-c5b382e3b159}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

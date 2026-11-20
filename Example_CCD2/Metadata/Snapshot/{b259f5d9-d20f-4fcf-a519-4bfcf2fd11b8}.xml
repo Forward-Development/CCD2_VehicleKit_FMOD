@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{b259f5d9-d20f-4fcf-a519-4bfcf2fd11b8}">
+		<property name="name">
+			<value>BlockRainRoof</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{00d35af7-e0e5-4952-a28a-fc591bc42fc0}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{315db0e7-b7cf-4ee3-96e4-5e1ae45d2f22}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{8c2fecf6-aeca-49bd-ad1b-db6cf5689f38}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{55c8e9f5-0827-412d-bf46-a446c001ab33}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{a7662365-f3ed-4f1d-a910-429bc14146f4}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{ac526c0a-8a8a-4232-ba9f-0036e0c82fbf}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{410c36ba-806a-481a-aab5-c538ac986ac3}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{315db0e7-b7cf-4ee3-96e4-5e1ae45d2f22}">
+		<relationship name="automators">
+			<destination>{0cfdab4c-eaf7-431a-8c85-13e67d4c7547}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{31204f10-91f5-4f76-aaa4-2d0038523cd2}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{8c2fecf6-aeca-49bd-ad1b-db6cf5689f38}" />
+	<object class="Timeline" id="{55c8e9f5-0827-412d-bf46-a446c001ab33}" />
+	<object class="SnapshotMasterTrack" id="{a7662365-f3ed-4f1d-a910-429bc14146f4}" />
+	<object class="SnapshotProperty" id="{ac526c0a-8a8a-4232-ba9f-0036e0c82fbf}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{81f60daf-e1ae-4fe8-b40d-e5de64f50e70}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{640cb480-39ee-4889-bcd7-5b6e8a9fac3b}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{410c36ba-806a-481a-aab5-c538ac986ac3}">
+		<relationship name="mixerStrip">
+			<destination>{640cb480-39ee-4889-bcd7-5b6e8a9fac3b}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0cfdab4c-eaf7-431a-8c85-13e67d4c7547}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>snapshotIntensity</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{cebcc8cc-52e5-4a7f-a04c-dd1f9e520240}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{31204f10-91f5-4f76-aaa4-2d0038523cd2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.17000000178813934</value>
+		</property>
+	</object>
+	<object class="SeekModulator" id="{81f60daf-e1ae-4fe8-b40d-e5de64f50e70}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.28999999165534973</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{cebcc8cc-52e5-4a7f-a04c-dd1f9e520240}">
+		<relationship name="parameter">
+			<destination>{7a773c6e-3e24-4ef5-9e79-814fe929391f}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{a4107607-cc4e-4dba-b9bd-65dc67ca3071}</destination>
+			<destination>{6d498e5a-0eeb-45c0-aed0-946774980e0a}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{a4107607-cc4e-4dba-b9bd-65dc67ca3071}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6d498e5a-0eeb-45c0-aed0-946774980e0a}">
+		<property name="position">
+			<value>100</value>
+		</property>
+		<property name="value">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

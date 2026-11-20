@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ff51e5f5-9174-4e70-b27d-1f7231fa9457}">
+		<property name="name">
+			<value>AutoShifterState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{58b44080-cc75-4b58-9f88-ac64c37504d0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{58b44080-cc75-4b58-9f88-ac64c37504d0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>-1</value>
+		</property>
+	</object>
+</objects>

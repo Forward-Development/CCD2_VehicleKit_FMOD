@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Locale" id="{f55d922e-1268-4231-838b-62cec9ec5913}">
+		<property name="name">
+			<value>ru</value>
+		</property>
+		<property name="localeCode">
+			<value>ru</value>
+		</property>
+	</object>
+</objects>

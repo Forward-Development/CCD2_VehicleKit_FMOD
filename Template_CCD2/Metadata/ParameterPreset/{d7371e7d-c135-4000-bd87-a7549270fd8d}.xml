@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d7371e7d-c135-4000-bd87-a7549270fd8d}">
+		<property name="name">
+			<value>Ignition</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1b5e3d45-83dd-4b0c-ae92-8bd915b270f0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1b5e3d45-83dd-4b0c-ae92-8bd915b270f0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{949dba35-21d5-4c65-ae0b-6e4bfea5abf0}">
+		<property name="name">
+			<value>CarWashMainBodySpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3bbf0417-fd7c-48a0-999b-d166e4064114}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3bbf0417-fd7c-48a0-999b-d166e4064114}">
+		<property name="maximum">
+			<value>30</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{77d4d234-f974-4d0f-a369-31c7bc327c66}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{77d4d234-f974-4d0f-a369-31c7bc327c66}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.41999998688697815</value>
+		</property>
+	</object>
+</objects>

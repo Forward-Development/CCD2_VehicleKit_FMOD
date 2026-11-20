@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{52365b9b-178b-4512-b0e4-cdc9166ecd3a}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
+		<property name="name">
+			<value>RainFar</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b5e4668b-4571-47b8-b251-860733c84209}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{88875e6f-477e-4b55-92aa-90f2c513775a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f463a8a1-9ad7-45d3-9c11-c8eb98477af7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b5e4668b-4571-47b8-b251-860733c84209}">
+		<relationship name="effects">
+			<destination>{4e1f2b36-759c-4ce5-afa0-715be1aede9c}</destination>
+			<destination>{d22bd390-36fe-4c7d-b171-3fc62d65716a}</destination>
+			<destination>{13509559-b122-4952-82f8-7dbb83feec46}</destination>
+			<destination>{ec12221f-fd44-4fac-adea-21b12d26e9e0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{88875e6f-477e-4b55-92aa-90f2c513775a}" />
+	<object class="MixerBusFader" id="{4e1f2b36-759c-4ce5-afa0-715be1aede9c}" />
+	<object class="MixerSend" id="{d22bd390-36fe-4c7d-b171-3fc62d65716a}">
+		<property name="level">
+			<value>3</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{73a8e7c8-903a-44a8-9122-d5cceb389293}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{13509559-b122-4952-82f8-7dbb83feec46}">
+		<property name="level">
+			<value>2.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{6e868101-23c1-426c-95b7-85d3ce1be152}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{ec12221f-fd44-4fac-adea-21b12d26e9e0}">
+		<property name="level">
+			<value>4</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{0fc9b3f1-b7cd-42d0-8f51-318768c19bba}</destination>
+		</relationship>
+	</object>
+</objects>

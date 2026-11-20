@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{360a2279-72fc-4655-8ffc-b44a30dd41f1}">
+		<property name="name">
+			<value>LightOn</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1e301237-5558-4d5e-8d16-c19f01ec330a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1e301237-5558-4d5e-8d16-c19f01ec330a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

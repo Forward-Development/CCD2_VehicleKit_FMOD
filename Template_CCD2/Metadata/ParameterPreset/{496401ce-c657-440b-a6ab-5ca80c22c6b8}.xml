@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{496401ce-c657-440b-a6ab-5ca80c22c6b8}">
+		<property name="name">
+			<value>RPM</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e7faea83-8aa2-4705-91d6-cf7e1bcbb998}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e7faea83-8aa2-4705-91d6-cf7e1bcbb998}">
+		<property name="minimum">
+			<value>900</value>
+		</property>
+		<property name="maximum">
+			<value>7000</value>
+		</property>
+		<property name="initialValue">
+			<value>900</value>
+		</property>
+	</object>
+</objects>

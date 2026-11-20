@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{43d38185-332b-48a1-ae1e-a2c0dcb12bae}">
+		<property name="name">
+			<value>DecreaseAmbientMiddle</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{00d35af7-e0e5-4952-a28a-fc591bc42fc0}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{f1bd62cf-132b-416f-afd7-2d52597b5d95}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{b4f1ca22-f4e8-46c8-967b-a5641e59fba0}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{78b4023f-4022-4c84-8cec-4fecb153c872}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{fb3095c5-a9bb-445d-ac0c-094b65a7f888}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{c0fd1695-a8ff-428d-9d62-8f9f7f04838f}</destination>
+			<destination>{d1fbd520-d381-4a3c-9317-738408732c83}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{3a165119-aab1-4c1d-910e-c2c0a9fb0ed5}</destination>
+			<destination>{d093d1c6-ccf0-4d74-aed0-66102f1b794d}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{f1bd62cf-132b-416f-afd7-2d52597b5d95}">
+		<relationship name="automators">
+			<destination>{0a8f0b8f-bf57-478b-a057-cbe5c9912c69}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{5b9675c9-72e9-4b16-820d-1bd35a40dcb9}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{b4f1ca22-f4e8-46c8-967b-a5641e59fba0}" />
+	<object class="Timeline" id="{78b4023f-4022-4c84-8cec-4fecb153c872}" />
+	<object class="SnapshotMasterTrack" id="{fb3095c5-a9bb-445d-ac0c-094b65a7f888}" />
+	<object class="SnapshotProperty" id="{c0fd1695-a8ff-428d-9d62-8f9f7f04838f}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-14.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{8bf9d5e3-cb2a-411d-9c05-53b9a1b93e2e}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{d1fbd520-d381-4a3c-9317-738408732c83}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-18</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{a6bb163d-6f49-4cb5-a3d4-d7cfd6a65750}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{3a165119-aab1-4c1d-910e-c2c0a9fb0ed5}">
+		<relationship name="mixerStrip">
+			<destination>{8bf9d5e3-cb2a-411d-9c05-53b9a1b93e2e}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{d093d1c6-ccf0-4d74-aed0-66102f1b794d}">
+		<relationship name="mixerStrip">
+			<destination>{a6bb163d-6f49-4cb5-a3d4-d7cfd6a65750}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0a8f0b8f-bf57-478b-a057-cbe5c9912c69}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>snapshotIntensity</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7469d420-026a-4fa4-a524-3a3addffe2dc}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{5b9675c9-72e9-4b16-820d-1bd35a40dcb9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.17000000178813934</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{7469d420-026a-4fa4-a524-3a3addffe2dc}">
+		<relationship name="parameter">
+			<destination>{7a773c6e-3e24-4ef5-9e79-814fe929391f}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{5e0160ff-30e2-4aec-a660-a35c4d753b52}</destination>
+			<destination>{dc6554b3-7731-41d1-98aa-bd779ef12c9c}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{5e0160ff-30e2-4aec-a660-a35c4d753b52}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{dc6554b3-7731-41d1-98aa-bd779ef12c9c}">
+		<property name="position">
+			<value>100</value>
+		</property>
+		<property name="value">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

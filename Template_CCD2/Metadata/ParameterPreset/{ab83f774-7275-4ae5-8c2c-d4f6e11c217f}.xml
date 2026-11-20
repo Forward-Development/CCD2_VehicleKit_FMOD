@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ab83f774-7275-4ae5-8c2c-d4f6e11c217f}">
+		<property name="name">
+			<value>HornReverb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b2d027b8-0165-4595-9a1d-7c6f52e9ee07}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b2d027b8-0165-4595-9a1d-7c6f52e9ee07}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

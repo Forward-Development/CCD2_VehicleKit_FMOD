@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{39bfad47-69d7-4f35-a7bb-58b1208b0a3e}">
+		<property name="name">
+			<value>TurningLightState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3eee32a1-81d2-4903-88d0-ef7cff31a905}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3eee32a1-81d2-4903-88d0-ef7cff31a905}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>-2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>-2</value>
+		</property>
+	</object>
+</objects>

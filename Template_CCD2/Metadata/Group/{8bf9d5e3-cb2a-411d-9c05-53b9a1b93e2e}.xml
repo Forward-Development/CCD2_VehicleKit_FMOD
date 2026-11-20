@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{8bf9d5e3-cb2a-411d-9c05-53b9a1b93e2e}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
+		<property name="name">
+			<value>Middle</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{7f05101b-5fab-4f88-822d-854a52221fe3}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{3cd8c32f-bdeb-4614-8f57-4d06bd78fcbe}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{23951baf-0dc3-4014-b7fa-d4480106b9d4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4fc03e0c-2e22-4cf9-9846-409f9f3cf2b1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f93429ba-ba06-4ab3-9f9d-913a51970d68}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{7f05101b-5fab-4f88-822d-854a52221fe3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.18999999761581421</value>
+		</property>
+	</object>
+	<object class="MixerBusEffectChain" id="{23951baf-0dc3-4014-b7fa-d4480106b9d4}">
+		<relationship name="effects">
+			<destination>{5fe2b487-0672-48f4-afd4-c724e6cb133b}</destination>
+			<destination>{2d2b2cf5-4508-4bdb-8783-edf8af198530}</destination>
+			<destination>{753fea13-bb1d-4a32-b5cb-2bd53666d04b}</destination>
+			<destination>{be39ee03-c33b-4dfd-bf0d-c778e88fe046}</destination>
+			<destination>{e3a33f00-2d01-46cf-87b9-e62b5f2204b9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4fc03e0c-2e22-4cf9-9846-409f9f3cf2b1}" />
+	<object class="MultibandEqEffect" id="{5fe2b487-0672-48f4-afd4-c724e6cb133b}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+		<property name="filterTypeB">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>11104.0605</value>
+		</property>
+		<property name="frequencyB">
+			<value>20.0000019</value>
+		</property>
+		<property name="qualityA">
+			<value>0.183724135</value>
+		</property>
+		<property name="qualityB">
+			<value>0.56048274</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{2d2b2cf5-4508-4bdb-8783-edf8af198530}" />
+	<object class="MixerSend" id="{753fea13-bb1d-4a32-b5cb-2bd53666d04b}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{73a8e7c8-903a-44a8-9122-d5cceb389293}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{be39ee03-c33b-4dfd-bf0d-c778e88fe046}">
+		<property name="level">
+			<value>4</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{6e868101-23c1-426c-95b7-85d3ce1be152}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{e3a33f00-2d01-46cf-87b9-e62b5f2204b9}">
+		<property name="level">
+			<value>7</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{0fc9b3f1-b7cd-42d0-8f51-318768c19bba}</destination>
+		</relationship>
+	</object>
+</objects>

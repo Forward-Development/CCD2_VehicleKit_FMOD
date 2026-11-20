@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{373b02e6-6429-475b-ae09-5c825196a9b7}">
+		<property name="name">
+			<value>SkidMagnitude</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cf74e4f6-4edb-425c-90f7-14733bb1d4f9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cf74e4f6-4edb-425c-90f7-14733bb1d4f9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8e3cfa25-4cd4-4dc1-975a-1562431d1d28}</destination>
+			<destination>{34259eae-bc8c-415c-8c00-4d2383f97040}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{8e3cfa25-4cd4-4dc1-975a-1562431d1d28}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="clockSource">
+			<value>1</value>
+		</property>
+		<property name="speedAscending">
+			<value>1.3999999761581421</value>
+		</property>
+		<property name="speedDescending">
+			<value>1.3000000715255737</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0ec887bc-f6a9-4f9f-b455-1c0a8a1268d1}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{34259eae-bc8c-415c-8c00-4d2383f97040}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="amount">
+			<value>18</value>
+		</property>
+	</object>
+	<object class="Automator" id="{0ec887bc-f6a9-4f9f-b455-1c0a8a1268d1}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>speedDescending</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{d254589a-c218-493a-95bd-65ae114f8880}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{d254589a-c218-493a-95bd-65ae114f8880}">
+		<relationship name="parameter">
+			<destination>{3e704a12-1481-4de1-a95f-fd2462304b0e}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{44ad998e-04a8-43dd-9032-8c7fe7d0505b}</destination>
+			<destination>{51398194-f861-486a-90ef-4ba8d78e0165}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{44ad998e-04a8-43dd-9032-8c7fe7d0505b}">
+		<property name="position">
+			<value>0.0014124293785310734</value>
+		</property>
+		<property name="value">
+			<value>1.29999924</value>
+		</property>
+		<property name="curveShape">
+			<value>0.445427746</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{51398194-f861-486a-90ef-4ba8d78e0165}">
+		<property name="position">
+			<value>0.99858757062146897</value>
+		</property>
+		<property name="value">
+			<value>0.680000007</value>
+		</property>
+	</object>
+</objects>

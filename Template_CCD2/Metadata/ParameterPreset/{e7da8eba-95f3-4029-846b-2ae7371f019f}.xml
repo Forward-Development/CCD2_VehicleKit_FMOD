@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e7da8eba-95f3-4029-846b-2ae7371f019f}">
+		<property name="name">
+			<value>EngineRuning</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a7ff5845-8e4c-4d4f-9cf8-a4b7e972b7c4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a7ff5845-8e4c-4d4f-9cf8-a4b7e972b7c4}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

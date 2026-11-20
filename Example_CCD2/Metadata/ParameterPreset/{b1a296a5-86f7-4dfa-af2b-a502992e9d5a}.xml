@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b1a296a5-86f7-4dfa-af2b-a502992e9d5a}">
+		<property name="name">
+			<value>RoadType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{27603702-6fa6-469a-867a-de299d9b153c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{27603702-6fa6-469a-867a-de299d9b153c}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Asphalt</value>
+			<value>Gravel</value>
+			<value>Dirt</value>
+			<value>Grass</value>
+			<value>Stone</value>
+			<value>Cobblestone</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

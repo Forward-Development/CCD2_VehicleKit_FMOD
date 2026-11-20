@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6f17b870-abbb-428d-93bc-6405e2ecf1b2}">
+		<property name="name">
+			<value>CarHitStrenght</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e7e32bd9-08bf-4716-b4b7-be5712e11e41}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e7e32bd9-08bf-4716-b4b7-be5712e11e41}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

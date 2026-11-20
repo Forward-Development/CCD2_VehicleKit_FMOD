@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e271b55e-0531-4ccb-b26e-116cf14b3c25}">
+		<property name="name">
+			<value>RainStrength</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7cc71b75-c3fe-4763-97b7-4793a4f47933}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7cc71b75-c3fe-4763-97b7-4793a4f47933}">
+		<property name="maximum">
+			<value>1.1000000000000001</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0c98f1f9-c91d-44e0-a8b9-88b0d9c48546}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0c98f1f9-c91d-44e0-a8b9-88b0d9c48546}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

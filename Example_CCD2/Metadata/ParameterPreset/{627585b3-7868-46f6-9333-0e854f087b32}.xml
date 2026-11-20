@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{627585b3-7868-46f6-9333-0e854f087b32}">
+		<property name="name">
+			<value>OpenGate</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1723dd5d-f9b3-44ba-acc1-9a27cc3c3203}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1723dd5d-f9b3-44ba-acc1-9a27cc3c3203}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

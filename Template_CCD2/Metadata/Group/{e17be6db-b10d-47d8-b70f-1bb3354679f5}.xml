@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{e17be6db-b10d-47d8-b70f-1bb3354679f5}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
+		<property name="name">
+			<value>LocationPoints</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e18da1d9-5605-46fb-8e7d-5ceea89af94e}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{a4f5289e-34a2-4287-96dc-c795439bcacb}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{f99b7ce4-71fd-4830-bda1-75273b761838}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b549a90f-8b4f-4a4a-82a0-dd9f231e919f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f93429ba-ba06-4ab3-9f9d-913a51970d68}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{e18da1d9-5605-46fb-8e7d-5ceea89af94e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.14000000059604645</value>
+		</property>
+	</object>
+	<object class="MixerBusEffectChain" id="{f99b7ce4-71fd-4830-bda1-75273b761838}">
+		<relationship name="effects">
+			<destination>{4c519e19-7bc1-4a79-a7b5-426811347bb2}</destination>
+			<destination>{ace7a35f-724b-495d-8635-724b06feea4a}</destination>
+			<destination>{4c37af33-20ea-4b95-8605-d5dd92a531bf}</destination>
+			<destination>{1859f750-ca29-4674-bc4d-fcd04cdc72d7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b549a90f-8b4f-4a4a-82a0-dd9f231e919f}" />
+	<object class="MixerBusFader" id="{4c519e19-7bc1-4a79-a7b5-426811347bb2}" />
+	<object class="MixerSend" id="{ace7a35f-724b-495d-8635-724b06feea4a}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{73a8e7c8-903a-44a8-9122-d5cceb389293}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{4c37af33-20ea-4b95-8605-d5dd92a531bf}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{6e868101-23c1-426c-95b7-85d3ce1be152}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{1859f750-ca29-4674-bc4d-fcd04cdc72d7}">
+		<property name="level">
+			<value>0.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{0fc9b3f1-b7cd-42d0-8f51-318768c19bba}</destination>
+		</relationship>
+	</object>
+</objects>

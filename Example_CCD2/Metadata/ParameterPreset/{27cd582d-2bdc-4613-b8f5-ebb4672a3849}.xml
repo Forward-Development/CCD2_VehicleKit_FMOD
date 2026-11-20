@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{27cd582d-2bdc-4613-b8f5-ebb4672a3849}">
+		<property name="name">
+			<value>GearShifterState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8784ba1f-e35c-471d-be80-6107bfe9352b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9a1330db-d42f-4611-a859-d145f3e06cb4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9a1330db-d42f-4611-a859-d145f3e06cb4}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{de146c53-0f43-4827-b829-334ecb1629fd}">
+		<property name="name">
+			<value>WipersState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{83a0e453-8c01-44e4-bb1c-6c92798a7625}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2578de85-f037-4c3b-bb47-50273f017c15}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2578de85-f037-4c3b-bb47-50273f017c15}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{695aed8f-cc88-4649-9ca9-7f2510b24469}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{695aed8f-cc88-4649-9ca9-7f2510b24469}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
